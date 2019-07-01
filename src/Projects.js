@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import './App.css';
 
 
-class Contact extends Component {
+class Projects extends Component {
   render() {
     return (
-      <div className="Contact">
+      <div className="Projects">
 
       </div>
     );
   }
 }
 
-export default Contact;
+export default Projects;

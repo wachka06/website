@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import './App.css';
 
 
-class Contact extends Component {
+class CV extends Component {
   render() {
     return (
-      <div className="Contact">
-
+      <div className="CV">
+      
       </div>
     );
   }
 }
 
-export default Contact;
+export default CV;

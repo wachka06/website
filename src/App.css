@@ -1,11 +1,39 @@
+* {
+  font-family: raleway, sans-serif;
+}
+
 .App {
   text-align: center;
   margin: 0 auto
 }
 
 .Nav {
-  background-color: black;
   position: fixed;
   width: 100%;
   height: 4em;
+  margin: 1em;
+}
+
+.nav-link-wrap {
+  display: flex;
+  list-style: none;
+  position: fixed;
+  right: 1em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 0.75em;
+  letter-spacing: 0.1em;
+  margin: 0.5em;
+}
+
+.nav-link:hover {
+  opacity: 0.6;
+}
+
+.main-description-wrap p {
+  margin: 0.2em;
+  letter-spacing: 0.1em;
 }
