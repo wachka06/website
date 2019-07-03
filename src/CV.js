@@ -31,7 +31,7 @@ class CV extends Component {
         <div className="CV-column2">
           <div className="CV-article">
             <div className="job-title-wrap">
-              <div>
+              <div className="job-title">
                 <h4>International Sales Assistant</h4>
                 <div>Fon-Star International Technology Inc.</div>
               </div>
@@ -52,7 +52,7 @@ class CV extends Component {
           </div>
           <div className="CV-article">
             <div className="job-title-wrap">
-              <div>
+              <div className="job-title">
                 <h4>Sales Assistant</h4>
                 <div>Yokogawa Sake Brewery</div>
               </div>
@@ -71,7 +71,7 @@ class CV extends Component {
           </div>
           <div className="CV-article">
             <div className="job-title-wrap">
-              <div>
+              <div className="job-title">
                 <h4>Japanese Teacher Intern</h4>
                 <div>Trinity Episcopal School</div>
               </div>
@@ -95,7 +95,7 @@ class CV extends Component {
         <div className="CV-column2">
           <div className="CV-article">
             <div className="job-title-wrap">
-              <div>
+              <div className="job-title">
                 <h4>Flatiron School</h4>
                 <div>Full Stack Web Development Immersive Program</div>
               </div>
@@ -108,7 +108,7 @@ class CV extends Component {
           </div>
           <div className="CV-article">
             <div className="job-title-wrap">
-              <div>
+              <div className="job-title">
                 <h4>National Cheng Kung University</h4>
                 <div>Mandarin Chinese Language Program</div>
               </div>
@@ -120,7 +120,7 @@ class CV extends Component {
           </div>
           <div className="CV-article">
             <div className="job-title-wrap">
-              <div>
+              <div className="job-title">
                 <h4>Kyoto Women’s University</h4>
               </div>
               <div className="job-title-year">

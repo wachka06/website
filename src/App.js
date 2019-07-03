@@ -4,6 +4,7 @@ import Nav from './Nav'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import img from './earwood.jpg'
 import KeyImage from './linkedin.svg';
+import mediumImg from './medium.svg'
 import SVG from 'react-inlinesvg';
 import Home from './Home'
 // import About from './About'
@@ -50,8 +51,13 @@ class App extends Component {
                 <p>I have translated a love of learning languages into an enthusiasm for coding.</p>
                 <p>When not coding, I can be found in my home borough of Queens, exploring its food, and soaking up its diverse cultural milieu.</p>
               </div>
-              <div style={{display:'inlineBlock',}}>
-                <a href={"https://www.linkedin.com/in/natsuki-wada-173a45155/"} target={"_blank"} style={{width:'2%', height:'2%', opacity:'0.7'}}><SVG src={KeyImage} alt="" /></a>
+              <div className="social-media-wrap">
+                <a href={"https://www.linkedin.com/in/natsuki-wada-173a45155/"}
+                  target={"_blank"} style={{width:'2%', height:'2%', opacity:'0.7'}}><SVG src={KeyImage} alt="" />
+                </a>
+                <a href={"https://medium.com/@wachka06"}
+                  target={"_blank"} style={{opacity:'0.7', display:'inlineBlock', marginLeft:'1em'}}><SVG src={mediumImg} alt="" />
+                </a>
               </div>
             </div>
           </div> : null}
