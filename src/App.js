@@ -40,18 +40,18 @@ class App extends Component {
           {this.state.showMain ?
             <div className="app-main-wrap">
             <img className="background-img" src={img} alt="img" />
-            <div className="main-description-wrap" style={{flexWrap:'wrap', position:'fixed', bottom:'1em', backgroundColor:'white'}}>
-              <div style={{fontSize:'1.2em', textAlign:'left', margin:'0', padding:'1em', paddingBottom:'0.3em'}}>
+            <div className="main-description-wrap">
+              <div className="main-description">
                 <p>Hi, I'm Natsuki. I'm a full-stack web developer based in NYC.</p>
                 <p>I am a food fanatic, an art aficionado, a tireless traveler, and a language lover.</p>
               </div>
-              <div className="main-description-sub" style={{fontSize:'0.7em', textAlign:'left', margin:'0em', padding:'0em 2em 2em 2em'}}>
+              <div className="main-description-sub">
                 <p>I am a Front-end oriented engineer proficient in React, JavaScript, and Ruby on Rails.</p>
                 <p>I have translated a love of learning languages into an enthusiasm for coding.</p>
                 <p>When not coding, I can be found in my home borough of Queens, exploring its food, and soaking up its diverse cultural milieu.</p>
               </div>
+              <div style={{display:'inlineBlock', }} ><a href={"https://www.linkedin.com/in/natsuki-wada-173a45155/"} target={"_blank"}><SVG src={KeyImage} alt="" /></a></div>
             </div>
-            <SVG src={KeyImage} alt={'https://www.linkedin.com/in/natsuki-wada-173a45155/'} />
           </div> : null}
         </div>
       </Router>

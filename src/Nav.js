@@ -14,7 +14,7 @@ class Nav extends Component {
           {/*<li><Link to={'/about'} className="nav-link" onClick={this.props.handleClick}>ABOUT</Link></li>*/}
           <li><Link to={'/projects'} className="nav-link" onClick={this.props.handleClick}>PROJECTS</Link></li>
           <li><Link to={'/cv'} className="nav-link" onClick={this.props.handleClick}>CV</Link></li>
-          <li><Link to={'/contact'} className="nav-link" onClick={this.props.handleClick}>CONTACT</Link></li>
+          <li><a className="nav-link" href="mailto:natsukiwad@gmail.com">CONTACT</a></li>
         </ul>
       </div>
     );

@@ -7,6 +7,37 @@
   margin: 0 auto
 }
 
+.main-description-wrap {
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 1em;
+  background-color: white;
+}
+
+.main-description {
+  font-size: 1.2em;
+  text-align: left;
+  margin: 0;
+  padding: 1em;
+  padding-bottom: 0.3em;
+}
+
+.main-description-sub {
+  font-size: 0.7em;
+  text-align: left;
+  margin: 0;
+  padding: 0em 2em 2em 2em;
+}
+
+.SVG {
+  display: block;
+}
+
+.linked-img {
+  width: 100px;
+  height: 100px;
+}
+
 .Nav {
   position: fixed;
   top: 0;
@@ -74,6 +105,14 @@
   border-bottom: solid 0.01em #cccccc;
 }
 
+@media only screen and (max-width: 680px) {
+  .project-demo {
+    display: inline-block;
+    width: 80%!important;
+    /* height: 90%!important; */
+  }
+}
+
 .project-demo {
   display: inline-block;
 }
@@ -83,17 +122,18 @@
   margin: auto 5em;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 900px) {
   .job-title-year {
     text-align: left!important;
     margin-left: 0!important;
-    display: inline!important;
+    /* display: inline!important; */
   }
-}
-
-@media only screen and (max-width: 425px) {
   .CV-column1 {
-    padding-left: 2em!important;
+    padding-left: 10em!important;
+    padding-bottom: 0em!important;
+  }
+  .CV-column2 {
+    padding-left: 10em!important;
     padding-bottom: 0em!important;
   }
 }
@@ -123,13 +163,13 @@
   position: relative;
   top: 1em;
   padding: 2em;
-  padding-left: 4em;
+  padding-left: 6em;
   letter-spacing: 0.18em;
   opacity: 0.7;
 }
 
 .CV-column2 {
-  width: 50%;
+  width: 55%;
   position: relative;
   top: 1em;
   padding: 2em;
@@ -151,7 +191,11 @@
   text-align: right;
   font-size: 0.95em;
   margin: 0.6em;
-  margin-left: 11em;
+  margin-left: 6em;
+}
+
+.job-title-year div {
+  padding-bottom: 0.2em;
 }
 
 .job-description {
