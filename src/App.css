@@ -73,6 +73,20 @@
   opacity: 0.6;
 }
 
+@media only screen and (max-width: 680px) {
+  .nav-link-wrap {
+      top: 3;
+      display: flex;
+      list-style: none;
+      position: fixed;
+      left: 0;
+      top: 3em;
+      padding-top: 0.3em;
+      padding-left: 1.8em;
+      font-size: 0.9em;
+  }
+}
+
 .main-description-wrap p {
   margin: 0.2em;
   letter-spacing: 0.1em;
