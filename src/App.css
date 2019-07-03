@@ -66,6 +66,7 @@
   font-size: 0.75em;
   letter-spacing: 0.1em;
   margin: 0.5em;
+  margin-right: 1.5em;
 }
 
 .nav-link:hover {
@@ -83,6 +84,7 @@
 }
 
 .Projects {
+  margin: 0 auto;
   position: relative;
   text-align: center;
   top: 5em;
@@ -109,28 +111,37 @@
   border-bottom: solid 0.01em #cccccc;
 }
 
-@media only screen and (max-width: 680px) {
-  .project-demo {
-    display: inline-block;
-    width: 80%!important;
-    /* height: 90%!important; */
-  }
-}
-
 .project-demo {
   display: inline-block;
 }
 
 .project-demo-description {
   text-align: left;
-  margin: auto 5em;
+  margin: auto 4em;
+}
+
+@media only screen and (max-width: 680px) {
+  .project-demo-wrap {
+    margin-top: 1em;
+    padding-bottom: 1em;
+  }
+  .project-demo {
+    display: inline-block;
+    width: 80%!important;
+    /* height: 90%!important; */
+  }
+  .project-demo-description {
+    text-align: left;
+    margin: auto 3em;
+    font-size: 0.75em;
+  }
 }
 
 .CV-wrap {
-  margin: 0 auto;
+  margin: 2em auto;
   width: 90%;
   position: relative;
-  top: 6em;
+  top: 4em;
   display: flex;
   flex-wrap: wrap;
   /* width: 100%; */
@@ -208,7 +219,7 @@
   margin: 0.2em;
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 1040px) {
   .job-title-year {
     text-align: left!important;
     margin-left: 0!important;
@@ -224,7 +235,7 @@
     padding-bottom: 0em!important;
   }
   .CV-column2 {
-    padding-left: 10em!important;
+    padding-left: 11em!important;
     padding-bottom: 0em!important;
   }
 }
