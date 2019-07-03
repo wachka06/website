@@ -50,7 +50,9 @@ class App extends Component {
                 <p>I have translated a love of learning languages into an enthusiasm for coding.</p>
                 <p>When not coding, I can be found in my home borough of Queens, exploring its food, and soaking up its diverse cultural milieu.</p>
               </div>
-              <div style={{display:'inlineBlock', }} ><a href={"https://www.linkedin.com/in/natsuki-wada-173a45155/"} target={"_blank"}><SVG src={KeyImage} alt="" /></a></div>
+              <div style={{display:'inlineBlock',}}>
+                <a href={"https://www.linkedin.com/in/natsuki-wada-173a45155/"} target={"_blank"} style={{width:'2%', height:'2%', opacity:'0.7'}}><SVG src={KeyImage} alt="" /></a>
+              </div>
             </div>
           </div> : null}
         </div>
