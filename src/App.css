@@ -100,14 +100,32 @@
  /*   About Component   */
 
 .About {
-
+  position: relative;
+  top: 4em;
+  margin: 5% 10%;
+  opacity: 0.5;
+  text-align: justify;
+  letter-spacing: .08em;
 }
 
 .About h2 {
-
+  display: inline-block;
+  font-weight: normal;
+  color: black!important;
 }
 
 .About h3 {
+  display: inline-block;
+  font-weight: normal;
+  letter-spacing: .2em;
+}
+
+.About span {
+  color: #b94a41;
+  font-size: 1.1em;
+}
+
+.link-to-projects {
 
 }
 
@@ -116,7 +134,23 @@
 }
 
 .about-article-description {
+  margin-left: 1em;
+}
 
+.blog-wrap {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.embedly-card {
+  flex: 1;
+}
+
+@media only screen and (max-width: 680px) {
+  .About {
+    top: 7em;
+    font-size: 0.7em;
+  }
 }
 
  /* Projects Component */

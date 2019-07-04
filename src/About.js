@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 
@@ -8,7 +9,7 @@ class About extends Component {
       <div className="About">
         <div className="about-article-wrap">
           <h2>Hi, I’m Natsuki!</h2>
-          <p>
+          <p　className="about-article-description">
             I was born and raised in Japan, worked in Taiwan, and moved to NYC.
             My coding journey started from a desire to share good experiences with others.
             While wandering in Tokyo, I ran across a French developer who made an app to match cheese and wine.
@@ -18,21 +19,27 @@ class About extends Component {
         </div>
         <h2>I am...</h2>
         <div className="about-article-wrap">
-          <h3>Art Aficionado:</h3>
+          <h3><span>A</span>rt <span>A</span>ficionado:</h3>
           <p className="about-article-description">
             As a front-end engineer, I am drawn to elegant and user-friendly design.
             I’m also a comic writer, and I sometimes make coding comics.
             You can check out some of them here.
           </p>
+          <div className="blog-wrap">
+            <blockquote class="embedly-card"><h4><a href="https://medium.com/@wachka06/i-miss-ya-ruby-84bc1d2cbdcb">I miss ya, RUBY! - Natsuki Wada - Medium</a></h4><p>When I went mushroom hunting, I realized that counting how many mushrooms we had collected(and what kind) is easier using Ruby than Javascript. In Ruby, when you make a count hash, you can set the default value of the key to zero. Compared to Javascript, the code is very neat, clear, and easy to read.</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+            <blockquote class="embedly-card"><h4><a href="https://medium.com/@wachka06/story-of-inheritance-e92f63fabe70">Story of Inheritance - Natsuki Wada - Medium</a></h4><p>"Story of Inheritance" is published by Natsuki Wada.</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+          </div>
         </div>
         <div className="about-article-wrap">
-          <h3>Food Fanatic:</h3>
+          <h3><span>F</span>ood <span>F</span>anatic:</h3>
           <p className="about-article-description">
             I love to explore new cultures through their cuisines.
             My weekends are spent exploring Queens for new foods I’ve never tried.
             I also enjoy basking in nature and hunting for wild mushrooms.
             That’s why I created a couple of mushroom-related apps (you don’t want to pick poisonous ones, right?)
-            and a ramen-finding app. Check them out here!
+            and a ramen-finding app. Check them out <span className="link-to-projects"><Link to={'/projects'} style={{textDecoration:'none', fontSize:'.9em'}} onClick={this.props.handleClick}>here</Link></span>!
           </p>
           <p className="about-article-description">
             Recently, I’ve been exploring diners around NYC and soaking up their 1960’s atmosphere.
@@ -40,17 +47,7 @@ class About extends Component {
           </p>
         </div>
         <div className="about-article-wrap">
-          <h3>Language Lover:</h3>
-          <p className="about-article-description">
-            Taiwan piqued my interest because of its warm-hearted people and delicious food,
-            so I ended up going there to study Mandarin. From this came a passion for learning languages.
-            I eventually took a job there and spent 3 and a half years in the country.
-            My love of languages has now translated over into my interest in computer languages,
-            and my desire to make web applications to connect with the world.
-          </p>
-        </div>
-        <div className="about-article-wrap">
-          <h3>Language Lover:</h3>
+          <h3><span>L</span>anguage <span>L</span>over:</h3>
           <p className="about-article-description">
             Taiwan piqued my interest because of its warm-hearted people and delicious food,
             so I ended up going there to study Mandarin. From this came a passion for learning languages.
@@ -63,9 +60,13 @@ class About extends Component {
             used in a language affect the overall design of websites.
             Here are the details in my blog.
           </p>
+          <div className="blog-wrap">
+            <blockquote class="embedly-card"><h4><a href="https://medium.com/@wachka06/why-are-japans-websites-so-cluttered-59dbc8c99cd3">Why are Japan's Websites so Cluttered? - Natsuki Wada - Medium</a></h4><p>I was talking with my husband, an American, once, and he commented to me, "It's interesting how Japanese Yahoo looks so old fashioned. It looks like the American version looked over ten years ago." I had never thought about this, but I went and compared the American and Japanese versions of Yahoo's main page: The design is radically different!</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+          </div>
         </div>
         <div className="about-article-wrap">
-          <h3>Tireless Traveler:</h3>
+          <h3><span>T</span>ireless <span>T</span>raveler:</h3>
           <p className="about-article-description">
             My love of traveling started from visiting temples in Kyoto
             when I was in college. I explored small islands, lighthouses,

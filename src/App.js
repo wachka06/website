@@ -7,7 +7,7 @@ import KeyImage from './linkedin.svg';
 import mediumImg from './medium.svg'
 import SVG from 'react-inlinesvg';
 import Home from './Home'
-// import About from './About'
+import About from './About'
 import Projects from './Projects'
 import CV from './CV'
 import Contact from './Contact'
@@ -33,7 +33,7 @@ class App extends Component {
           <Nav handleClick={this.handleClick} handleMain={this.handleMain} />
           <Switch>
             <Route exact path='/' component={Home} />
-                {/*<Route path='/about' component={About} />*/}
+            <Route path='/about' component={About} />
             <Route path='/Projects' component={Projects}/>
             <Route path='/CV' component={CV} />
             <Route path='/Contact' component={Contact} />
