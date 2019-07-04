@@ -113,6 +113,9 @@
   font-weight: normal;
   color: black!important;
 }
+.About h2:hover {
+  background-color: black;
+}
 
 .About h3 {
   display: inline-block;
@@ -144,6 +147,46 @@
 
 .embedly-card {
   flex: 1;
+}
+
+.embedly-card p {
+  display: none;
+}
+
+.photos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*
+figure.photo-wrap {
+  position: relative;
+} */
+
+/*
+figcaption.hover-mask:hover {
+  position: absolute;
+　top: 0;
+　bottom: 0;
+　left: 0;
+　right: 0;
+　background: rgba(0,0,0,0.5);
+　opacity: 0;
+　color: #fff;
+　display: flex;
+　align-items: center;
+　text-align: center;
+  opacity: 1;
+　transition:all 0.6s ease;
+}
+ */
+.photos-container img {
+  width: 9.8em;
+  height: 9.8em;
+  margin: 0.2em;
+}
+
+.photo-wrap:hover {
+  opacity: 0.5!important;
 }
 
 @media only screen and (max-width: 680px) {

@@ -2,6 +2,16 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
+import img1 from './img/jinmen.jpg'
+import img2 from './img/lugang1.jpg'
+import img3 from './img/tasogare_couple.jpg'
+import img4 from './img/fuguijiao_lighthouse.jpg'
+import img5 from './img/jilong.jpg'
+import img6 from './img/houtong.jpg'
+import img7 from './img/sandal.jpg'
+import img8 from './img/miao_apo.jpg'
+import img9 from './img/pixiu.jpg'
+
 
 class About extends Component {
   render() {
@@ -26,10 +36,10 @@ class About extends Component {
             You can check out some of them here.
           </p>
           <div className="blog-wrap">
-            <blockquote class="embedly-card"><h4><a href="https://medium.com/@wachka06/i-miss-ya-ruby-84bc1d2cbdcb">I miss ya, RUBY! - Natsuki Wada - Medium</a></h4><p>When I went mushroom hunting, I realized that counting how many mushrooms we had collected(and what kind) is easier using Ruby than Javascript. In Ruby, when you make a count hash, you can set the default value of the key to zero. Compared to Javascript, the code is very neat, clear, and easy to read.</p></blockquote>
-            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-            <blockquote class="embedly-card"><h4><a href="https://medium.com/@wachka06/story-of-inheritance-e92f63fabe70">Story of Inheritance - Natsuki Wada - Medium</a></h4><p>"Story of Inheritance" is published by Natsuki Wada.</p></blockquote>
-            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+            <blockquote className="embedly-card"><h4><a href="https://medium.com/@wachka06/i-miss-ya-ruby-84bc1d2cbdcb">I miss ya, RUBY! - Natsuki Wada - Medium</a></h4><p>When I went mushroom hunting, I realized that counting how many mushrooms we had collected(and what kind) is easier using Ruby than Javascript. In Ruby, when you make a count hash, you can set the default value of the key to zero. Compared to Javascript, the code is very neat, clear, and easy to read.</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charSet="UTF-8"></script>
+            <blockquote className="embedly-card"><h4><a href="https://medium.com/@wachka06/story-of-inheritance-e92f63fabe70">Story of Inheritance - Natsuki Wada - Medium</a></h4><p>"Story of Inheritance" is published by Natsuki Wada.</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charSet="UTF-8"></script>
           </div>
         </div>
         <div className="about-article-wrap">
@@ -61,8 +71,8 @@ class About extends Component {
             Here are the details in my blog.
           </p>
           <div className="blog-wrap">
-            <blockquote class="embedly-card"><h4><a href="https://medium.com/@wachka06/why-are-japans-websites-so-cluttered-59dbc8c99cd3">Why are Japan's Websites so Cluttered? - Natsuki Wada - Medium</a></h4><p>I was talking with my husband, an American, once, and he commented to me, "It's interesting how Japanese Yahoo looks so old fashioned. It looks like the American version looked over ten years ago." I had never thought about this, but I went and compared the American and Japanese versions of Yahoo's main page: The design is radically different!</p></blockquote>
-            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+            <blockquote className="embedly-card"><h4><a href="https://medium.com/@wachka06/why-are-japans-websites-so-cluttered-59dbc8c99cd3">Why are Japan's Websites so Cluttered? - Natsuki Wada - Medium</a></h4><p>I was talking with my husband, an American, once, and he commented to me, "It's interesting how Japanese Yahoo looks so old fashioned. It looks like the American version looked over ten years ago." I had never thought about this, but I went and compared the American and Japanese versions of Yahoo's main page: The design is radically different!</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charSet="UTF-8"></script>
           </div>
         </div>
         <div className="about-article-wrap">
@@ -75,6 +85,21 @@ class About extends Component {
             I had seeing these places with the world through websites and apps.
             This is what gave me the passion to be a developer.
           </p>
+          <div className="photos-container">
+            {/*<figure className="photo-wrap">
+              <img src={img1} alt="" />
+              <figcaption className="hover-mask">Hello</figcaption>
+            </figure>*/}
+            <div className="photo-wrap"><img src={img1} alt="" /></div>
+            <div className="photo-wrap"><img src={img2} alt="" /></div>
+            <div className="photo-wrap"><img src={img3} alt="" /></div>
+            <div className="photo-wrap"><img src={img4} alt="" /></div>
+            <div className="photo-wrap"><img src={img5} alt="" /></div>
+            <div className="photo-wrap"><img src={img6} alt="" /></div>
+            <div className="photo-wrap"><img src={img7} alt="" /></div>
+            <div className="photo-wrap"><img src={img8} alt="" /></div>
+            <div className="photo-wrap"><img src={img9} alt="" /></div>
+          </div>
         </div>
       </div>
     );
