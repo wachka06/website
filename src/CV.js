@@ -42,11 +42,12 @@ class CV extends Component {
               </div>
               <div>
               <div className="job-description">
-                <p>- Managed meetings and communications for Canadian,
-                  Japanese and Taiwanese corporate clients</p>
-                <p>- Worked closely with corporate clients 
-                  and used cross-merchandising to help increase demand for sake</p>
-                <p>- Managed inventory display to enhance customer experience</p>
+                <p>- Managed  meetings and communications for Canadian,
+                  Japanese and Taiwanese corporate clients.
+                  Met with representatives to review needs, planned and executed event.</p>
+                <p>- As the go-between for the company and the international client,
+                  I communicated needs, standards and timelines while managing cultural differences.
+                  Coordinated inventory needs with the factory workers in Taiwan.</p>
               </div>
             </div>
           </div>
@@ -63,9 +64,10 @@ class CV extends Component {
               </div>
               <div>
               <div className="job-description">
-                <p>- Sold Sake (Japanese rice wine) to individual and corporate customers</p>
-                <p>- Worked closely with corporate clients  and used cross-merchandising to help increase demand for sake</p>
-                <p>- Managed inventory display to enhance customer experience</p>
+                <p>- Sold Sake to individual and corporate customers.
+                  Worked closely with clients and used cross-merchandising
+                  to help increase demand for sake.
+                  Managed inventory display to enhance customer experience.</p>
               </div>
             </div>
           </div>
@@ -84,7 +86,7 @@ class CV extends Component {
               <div className="job-description">
                 <p>- Developed curricula, created educational materials,
                   and taught classes for elementary and middle school Japanese classes
-                  to engage students in Japanese studies</p>
+                  to engage students in Japanese studies.</p>
               </div>
             </div>
           </div>
@@ -129,7 +131,7 @@ class CV extends Component {
               </div>
               <div>
               <div className="job-description">
-                <p>BA, English Language and Literature</p>
+                <p>BA, English Studies</p>
                 <p>GPA 3.41</p>
               </div>
             </div>
