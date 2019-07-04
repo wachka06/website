@@ -97,6 +97,30 @@
   height: 30em;
 }
 
+ /*   About Component   */
+
+.About {
+
+}
+
+.About h2 {
+
+}
+
+.About h3 {
+
+}
+
+.about-article-wrap {
+
+}
+
+.about-article-description {
+
+}
+
+ /* Projects Component */
+
 .Projects {
   margin: 0 auto;
   position: relative;
@@ -150,6 +174,8 @@
     font-size: 0.75em;
   }
 }
+
+ /* CV Component */
 
 .CV-wrap {
   margin: 2em auto;
@@ -250,6 +276,29 @@
   }
   .CV-column2 {
     padding-left: 11em!important;
+    padding-bottom: 0em!important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .job-title-year {
+    text-align: left!important;
+    margin-left: 0!important;
+    width: 340px;
+    /* float: left; */
+  }
+  .job-title-year div {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  .CV-column1 {
+    padding-left: 3em!important;
+    padding-bottom: 0em!important;
+  }
+  .CV-column2 {
+    width: 70%;
+    font-size: 0.9em;
+    padding-left: 4em!important;
     padding-bottom: 0em!important;
   }
 }
