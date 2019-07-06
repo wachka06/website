@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './Nav'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import img from './earwood.jpg'
-import KeyImage from './linkedin.svg';
+import KeyImage from './img/linkedin.svg';
 import mediumImg from './medium.svg'
 import SVG from 'react-inlinesvg';
 import Home from './Home'

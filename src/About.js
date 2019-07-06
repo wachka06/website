@@ -36,9 +36,17 @@ class About extends Component {
             You can check out some of them here.
           </p>
           <div className="blog-wrap">
-            <blockquote className="embedly-card"><h4><a href="https://medium.com/@wachka06/i-miss-ya-ruby-84bc1d2cbdcb">I miss ya, RUBY! - Natsuki Wada - Medium</a></h4><p>When I went mushroom hunting, I realized that counting how many mushrooms we had collected(and what kind) is easier using Ruby than Javascript. In Ruby, when you make a count hash, you can set the default value of the key to zero. Compared to Javascript, the code is very neat, clear, and easy to read.</p></blockquote>
+            <blockquote className="embedly-card">
+              <h4><a href="https://medium.com/@wachka06/i-miss-ya-ruby-84bc1d2cbdcb">I miss ya, RUBY! - Natsuki Wada - Medium</a></h4>
+              <p>When I went mushroom hunting, I realized that counting how many mushrooms
+                we had collected(and what kind) is easier using Ruby than Javascript.
+                In Ruby, when you make a count hash, you can set the default value of the key to zero.
+                Compared to Javascript, the code is very neat, clear, and easy to read.</p>
+            </blockquote>
             <script async src="//cdn.embedly.com/widgets/platform.js" charSet="UTF-8"></script>
-            <blockquote className="embedly-card"><h4><a href="https://medium.com/@wachka06/story-of-inheritance-e92f63fabe70">Story of Inheritance - Natsuki Wada - Medium</a></h4><p>"Story of Inheritance" is published by Natsuki Wada.</p></blockquote>
+            <blockquote className="embedly-card">
+              <h4><a href="https://medium.com/@wachka06/story-of-inheritance-e92f63fabe70">Story of Inheritance - Natsuki Wada - Medium</a></h4>
+              <p>"Story of Inheritance" is published by Natsuki Wada.</p></blockquote>
             <script async src="//cdn.embedly.com/widgets/platform.js" charSet="UTF-8"></script>
           </div>
         </div>

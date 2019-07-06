@@ -12,7 +12,7 @@
 .main-description-wrap {
   flex-wrap: wrap;
   position: fixed;
-  bottom: 1em;
+  bottom: 0;
   background-color: white;
 }
 
@@ -31,13 +31,17 @@
   padding: 0em 2em 2em 2em;
 }
 
+.social-media-wrap {
+  margin-bottom: 1em;
+}
+
+.social-media-wrap:hover a {
+  opacity: 0.2;
+}
+
 .SVG {
   display: block;
 }
-
-/* .social-media-wrap a:hover {
-  opacity: 0.2;
-} */
 
 .linked-img {
   width: 100px;
