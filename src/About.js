@@ -86,19 +86,42 @@ class About extends Component {
             This is what gave me the passion to be a developer.
           </p>
           <div className="photos-container">
-            {/*<figure className="photo-wrap">
+            <a href="#" className="photo-wrap">
+              <span className="text"><h1>Jinmen Island</h1></span>
               <img src={img1} alt="" />
-              <figcaption className="hover-mask">Hello</figcaption>
-            </figure>*/}
-            <div className="photo-wrap"><img src={img1} alt="" /></div>
-            <div className="photo-wrap"><img src={img2} alt="" /></div>
-            <div className="photo-wrap"><img src={img3} alt="" /></div>
-            <div className="photo-wrap"><img src={img4} alt="" /></div>
-            <div className="photo-wrap"><img src={img5} alt="" /></div>
-            <div className="photo-wrap"><img src={img6} alt="" /></div>
-            <div className="photo-wrap"><img src={img7} alt="" /></div>
-            <div className="photo-wrap"><img src={img8} alt="" /></div>
-            <div className="photo-wrap"><img src={img9} alt="" /></div>
+            </a>
+            <a href="#" className="photo-wrap">
+              <span className="text"><h1>Lugang</h1></span>
+              <img src={img2} alt="" />
+            </a>
+            <a href="#" className="photo-wrap">
+              <span className="text"><h1>Tainan</h1></span>
+              <img src={img3} alt="" />
+            </a>
+            <a href="#" className="photo-wrap">
+              <span className="text"><h1>Fuguijiao Lighthouse</h1></span>
+              <img src={img4} alt="" />
+            </a>
+            <a href="#" className="photo-wrap">
+              <span className="text"><h1>Miaokou Night Market</h1></span>
+              <img src={img5} alt="" />
+            </a>
+            <a href="#" className="photo-wrap">
+              <span className="text"><h1>Houtong Cat Village</h1></span>
+              <img src={img6} alt="" />
+            </a>
+            <a href="#" className="photo-wrap">
+              <span className="text"><h1>Local Gourmet</h1></span>
+              <img src={img7} alt="" />
+            </a>
+            <a href="#" className="photo-wrap">
+              <span className="text"><h1>Historical Temples</h1></span>
+              <img src={img8} alt="" />
+            </a>
+            <a href="#" className="photo-wrap">
+              <span className="text"><h1>Biyun Temple</h1></span>
+              <img src={img9} alt="" />
+            </a>
           </div>
         </div>
       </div>
