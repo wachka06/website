@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import './App.css';
 import Nav from './Nav'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import img from './earwood.jpg'
+import img from './img/earwood.jpg'
 import KeyImage from './img/linkedin.svg';
-import mediumImg from './medium.svg'
+import mediumImg from './img/medium.svg'
 import SVG from 'react-inlinesvg';
 import Home from './Home'
 import About from './About'
