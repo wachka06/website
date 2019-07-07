@@ -53,17 +53,19 @@
   display: block;
 }
 
-.linked-img {
-  width: 100px;
-  height: 100px;
-}
-
 @media only screen and (max-width: 425px) {
   .main-description {
-      font-size: 1em;
+    font-size: 1em;
   }
   .main-description-sub {
-      font-size: 0.7em;
+    font-size: 0.7em;
+  }
+  .SVG {
+    width: 1.2em;
+    height: 1.2em;
+  }
+  .main-description-sub {
+    padding-bottom: 1em;
   }
 }
 
