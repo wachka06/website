@@ -45,7 +45,7 @@
   margin-bottom: 1em;
 }
 
-.social-media-wrap:hover a {
+.social-media-wrap:hover .span {
   opacity: 0.2;
 }
 
@@ -60,10 +60,6 @@
   .main-description-sub {
     font-size: 0.7em;
   }
-  .SVG {
-    width: 1.2em;
-    height: 1.2em;
-  }
   .main-description-sub {
     padding-bottom: 1em;
   }
@@ -75,7 +71,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  /* max-width: 425px; */
   height: 4em;
   padding: 1em;
   z-index: 2;
@@ -151,14 +146,6 @@
   font-size: 1.1em;
 }
 
-.link-to-projects {
-
-}
-
-.about-article-wrap {
-
-}
-
 .about-article-description {
   margin-left: 1em;
 }
@@ -207,7 +194,7 @@
 .photo-wrap .text h1 {
   margin: 0;
   color: white;
-  font-size: 1.8em;
+  font-size: 4vw;
 }
 
 .photo-wrap .text:hover {
@@ -318,30 +305,28 @@
   border-bottom: solid 0.01em #cccccc;
 }
 
-.project-demo {
-  display: inline-block;
+.video-wrapper {
+  position: relative;
+  width: 60%;
+  height: 0;
+  padding-bottom: 33.75%;
+  /* 100 : 56.25 = 60 : 33.75 (16 : 9) */
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .project-demo-description {
   text-align: left;
   margin: auto 4em;
-}
-
-@media only screen and (max-width: 680px) {
-  .project-demo-wrap {
-    margin-top: 1em;
-    padding-bottom: 1em;
-  }
-  .project-demo {
-    display: inline-block;
-    width: 80%!important;
-    /* height: 90%!important; */
-  }
-  .project-demo-description {
-    text-align: left;
-    margin: auto 3em;
-    font-size: 0.75em;
-  }
 }
 
  /* CV Component */
