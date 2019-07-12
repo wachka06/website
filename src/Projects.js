@@ -9,7 +9,7 @@ class Projects extends Component {
         <div className="project-demo-wrap">
           <h3>Rameniac</h3>
           <div className="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnuky0bKun8" frameBorder="0"
+            <iframe title="rameniac" width="560" height="315" src="https://www.youtube.com/embed/qnuky0bKun8" frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
             </iframe>
           </div>
@@ -24,7 +24,7 @@ class Projects extends Component {
         <div className="project-demo-wrap">
           <h3>Mushroompedia</h3>
           <div className="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/lhPiLwi-g0E" frameBorder="0"
+            <iframe title="mushroompedia" width="560" height="315" src="https://www.youtube.com/embed/lhPiLwi-g0E" frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
             </iframe>
           </div>
@@ -39,7 +39,7 @@ class Projects extends Component {
         <div className="project-demo-wrap">
           <h3>Mushroom Hunting</h3>
           <div className="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Y2LbEB6oWAI" frameBorder="0"
+            <iframe title="mushroomhunting" width="560" height="315" src="https://www.youtube.com/embed/Y2LbEB6oWAI" frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
             </iframe>
           </div>

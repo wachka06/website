@@ -157,13 +157,19 @@
 
 .embedly-card {
   flex: 1;
+  margin: 1em;
+  -webkit-filter: grayscale(90%);
+}
+
+.embedly-card:hover {
+  -webkit-filter: grayscale(60%);
 }
 
 .embedly-card a {
   letter-spacing: 0.04em!important;
 }
 
-.embedly-card p {
+.brd {
   display: none;
 }
 
